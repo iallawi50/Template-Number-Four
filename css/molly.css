@@ -983,12 +983,13 @@ footer {
   color: white;
 }
 
-footer span {
-  display: block;
+footer p:first-of-type {
   margin-bottom: 15px;
-  color: white !important;
 }
 
+footer .number {
+  color: white !important;
+}
 footer ul {
   display: flex;
   justify-content: center;
@@ -1011,7 +1012,6 @@ footer p {
   text-transform: capitalize;
 }
 
-footer p span {
-  display: inline;
+footer p:last-of-type span {
   color: var(--main-color);
 }
