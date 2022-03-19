@@ -555,6 +555,7 @@ header ul li img {
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 500;
+  padding: 0 15px;
 }
 .browsers .content p {
   font-size: 13px;
@@ -621,7 +622,6 @@ header ul li img {
 @media (max-width: 767px) {
   .about .container .content h3 {
     text-align: center;
-    padding: 0 15px;
   }
 }
 .about .container .content span {
@@ -773,8 +773,7 @@ header ul li img {
 
 @media (max-width: 767px) {
   .blog .container .col-2 {
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
 }
 
@@ -856,7 +855,8 @@ header ul li img {
     flex-direction: column;
   }
 }
-.subscribe form input, .subscribe form button {
+.subscribe form input,
+.subscribe form button {
   padding: 15px 40px;
   border-radius: 30px;
   border: none;
@@ -993,7 +993,7 @@ footer .number {
 footer ul {
   display: flex;
   justify-content: center;
-  gap:15px;
+  gap: 15px;
   margin: 30px 0;
 }
 
