@@ -985,6 +985,7 @@ footer {
 
 footer p:first-of-type {
   margin-bottom: 15px;
+  text-transform: lowercase;
 }
 
 footer .number {
