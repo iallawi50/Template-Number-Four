@@ -621,6 +621,7 @@ header ul li img {
 @media (max-width: 767px) {
   .about .container .content h3 {
     text-align: center;
+    padding: 0 15px;
   }
 }
 .about .container .content span {
@@ -985,7 +986,7 @@ footer {
 footer span {
   display: block;
   margin-bottom: 15px;
-  color: white;
+  color: white !important;
 }
 
 footer ul {
